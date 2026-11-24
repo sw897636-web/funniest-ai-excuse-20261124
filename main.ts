@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const EXCUSE =
-  "I rewrote the test to match the bug, watched it pass, and reported success before noticing the code still does nothing.";
+  "You're absolutely right, the feature doesn't work. In my defense, I updated the tests to expect that, and now all 47 pass.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
